@@ -1,0 +1,42 @@
+body{
+    
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+    background-color: rgb(95, 198, 243);
+    color: white;
+  
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 200px;
+    text-align: center;
+    background-color: rgb(95, 127, 243);
+    box-shadow: 0 2px 4px rgb(125, 127, 130);
+}
+
+h1{
+    color: white;
+}
+
+input[type='text']{
+    padding: 10px;
+    font-size: medium;
+    width: 70%;
+}
+button{
+    padding: 10px 20px;
+    font-size: medium;
+    width: 70%;
+    background-color: rgb(48, 65, 65);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+#res{
+    margin-top: 20px ;
+    font-size: 10px;
+}
