@@ -1,8 +1,7 @@
 //https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-//key: cdd24f5f103b99a5e7d6e87fabc36db1 
-
+//key: API KEY
 const urlBase='https://api.openweathermap.org/data/2.5/weather'
-let API_KEY='cdd24f5f103b99a5e7d6e87fabc36db1'
+let API_KEY='OPENWEATHERMAP_API_KEY'
 //devuelve en grados kelvin
 const diffKelvin=273.15
 const schBtn=document.getElementById('searchButton')
